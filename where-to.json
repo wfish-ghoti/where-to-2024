@@ -1,0 +1,58 @@
+{
+  "cities": [
+    {
+      "city": "Split",
+      "country": "Croatia",
+      "id": 1
+    },
+    {
+      "city": "Galway",
+      "country": "Ireland",
+      "id": 2
+    },
+    {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "id": 3
+    },
+    {
+      "city": "New Orleans",
+      "country": "USA",
+      "id": 4
+    }
+  ],
+  "ratings": [
+    {
+      "city": "Split",
+      "affordability": "10",
+      "nightlife": "8",
+      "cuisine": "9",
+      "safety": "8",
+      "id": 1
+    },
+    {
+      "city": "Galway",
+      "affordability": "7",
+      "nightlife": "10",
+      "cuisine": "7",
+      "safety": "9",
+      "id": 2
+    },
+    {
+      "city": "Zurich",
+      "affordability": "4",
+      "nightlife": "7",
+      "cuisine": "7",
+      "safety": "9",
+      "id": 3
+    },
+    {
+      "city": "New Orleans",
+      "affordability": "9",
+      "nightlife": "10",
+      "cuisine": "10",
+      "safety": "7",
+      "id": 4
+    }
+  ]
+}
