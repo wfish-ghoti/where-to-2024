@@ -25,6 +25,8 @@ Sample `cities` resource
 {
     "city": "Split",
     "country": "Croatia",
+    "affordability": "10",
+    "nightlife": "8",
     "id": 1
 }
 ```
@@ -33,7 +35,9 @@ Sample `cities` resource
 | ------------- | ----------- | ----------- |
 | `city` | string | City name |
 | `country` | string | The country where the city is location |
-| `id` | number | The user's unique record ID |
+| `affordability` | number | The rating for affordability from 1-10|
+| `nightlife` | number | The nightlife rating from 1-10 |
+| `id` | number | The city's unique record ID |
 
 <!-- ## READ
 
