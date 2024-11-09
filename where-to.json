@@ -3,55 +3,55 @@
     {
       "city": "Split",
       "country": "Croatia",
+      "affordability": "10",
+      "nightlife": "8",
       "id": 1
     },
     {
       "city": "Galway",
       "country": "Ireland",
+       "affordability": "7",
+      "nightlife": "10",
       "id": 2
     },
     {
       "city": "Zurich",
       "country": "Switzerland",
+      "affordability": "4",
+      "nightlife": "7",
       "id": 3
     },
     {
       "city": "New Orleans",
       "country": "USA",
+      "affordability": "9",
+      "nightlife": "10",
       "id": 4
     }
   ],
-  "ratings": [
+  "users": [
     {
-      "city": "Split",
-      "affordability": "10",
-      "nightlife": "8",
-      "cuisine": "9",
-      "safety": "8",
+      "name": "Kathy Barnes"
+      "city_visited": "Split", "Seattle", "New York",
+      "city_to_visit": "Tokyo", "Sydney", "Barcelona"
       "id": 1
     },
     {
-      "city": "Galway",
-      "affordability": "7",
-      "nightlife": "10",
-      "cuisine": "7",
-      "safety": "9",
+      "name": "Rex Fieldman"
+      "city_visited": "Galway", "London", "Austin",
+      "city_to_visit": "Delhi", "Johannesburg", "Paris"
       "id": 2
     },
     {
-      "city": "Zurich",
-      "affordability": "4",
-      "nightlife": "7",
-      "cuisine": "7",
-      "safety": "9",
+      "name": "Ida McHugh"
+      "city_visited": "Zurich", "Berlin", "Milan",
+      "city_to_visit": "Rome", "Boston", "Reykjavik"
       "id": 3
     },
     {
-      "city": "New Orleans",
-      "affordability": "9",
-      "nightlife": "10",
-      "cuisine": "10",
-      "safety": "7",
+      "name": "Chris O'Brien"
+      "city_visited": "Denver", "Miami", "Mexico City",
+      "city_to_visit": "Bogota", "Prague", "DC"
       "id": 4
     }
   ]
