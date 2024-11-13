@@ -13,8 +13,7 @@ Base endpoint:
 
 Contains information about the users of the service.
 
-To have a rating in the service, the city must be added to
-the service first. Learn more about the [cities resource](cities.md).
+A city must be in the cities resource to be available to the `city_visited` property. Learn more about the [cities resource](cities.md).
 
 ## Resource properties
 
@@ -33,7 +32,7 @@ Sample `users` resource
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `name` | string | user name |
-| `city_visited` | string | cities visited by the user |
+| `city_visited` | string | cities visited by the user. The city must be in the cities resource. |
 | `city_to_visit` | string | cities the user would like to visit|
 | `id` | number | The user's unique record ID |
 
