@@ -31,27 +31,31 @@
   ],
   "users": [
     {
-      "name": "Kathy Barnes"
+      "name": "Kathy Barnes",
+      "location": "Los Angeles",
       "city_visited": "Split", "Seattle", "New York",
-      "city_to_visit": "Tokyo", "Sydney", "Barcelona"
+      "city_to_visit": "Tokyo", "Sydney", "Barcelona",
       "id": 1
     },
     {
-      "name": "Rex Fieldman"
+      "name": "Rex Fieldman",
+      "location": "Las Vegas",
       "city_visited": "Galway", "London", "Austin",
-      "city_to_visit": "Delhi", "Johannesburg", "Paris"
+      "city_to_visit": "Delhi", "Johannesburg", "Paris",
       "id": 2
     },
     {
-      "name": "Ida McHugh"
+      "name": "Ida McHugh",
+      "location": "Kansas City",
       "city_visited": "Zurich", "Berlin", "Milan",
-      "city_to_visit": "Rome", "Boston", "Reykjavik"
+      "city_to_visit": "Rome", "Boston", "Reykjavik",
       "id": 3
     },
     {
-      "name": "Chris O'Brien"
+      "name": "Chris O'Brien",
+      "location": "Buffalo",
       "city_visited": "Denver", "Miami", "Mexico City",
-      "city_to_visit": "Bogota", "Prague", "DC"
+      "city_to_visit": "Bogota", "Prague", "DC",
       "id": 4
     }
   ]
