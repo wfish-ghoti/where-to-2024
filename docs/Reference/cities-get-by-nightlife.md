@@ -4,20 +4,20 @@ layout: page
 
 # Get cities by `nightlife` rating
 
-Returns an array of [`task`](task.md) objects that contain a specified `user_id` parameter.
+Returns an array of [`cities`](cities.md) objects that contain a specified `nightlife` parameter.
 
 ## URL
 
 ```shell
 
-{base_url}/tasks?user_id=1
+{base_url}/cities?nightlife=
 ```
 
 ## Params
 
 | Parameter name | Type | Description |
 | -------------- | ------ | ------------ |
-| `user_id` | number | The ID of the user resource to which a task is assigned |
+| `nightlife` | number | The nightlife rating from 1-10 |
 
 ## Request headers
 
@@ -31,22 +31,20 @@ None
 
 ```js
 [
-    {
-        "user_id": 1,
-        "title": "Grocery shopping",
-        "description": "eggs, bacon, gummy bears",
-        "due_date": "2024-02-20T17:00",
-        "warning": "-10",
-        "id": 1
-    },
-    {
-        "user_id": 1,
-        "title": "Piano recital",
-        "description": "Daughter's first concert appearance",
-        "due_date": "2024-03-10T09:00",
-        "warning": "-30",
-        "id": 2
-    }
+  {
+    "city": "Galway",
+    "country": "Ireland",
+    "affordability": "7",
+    "nightlife": "10",
+    "id": 2
+  },
+  {
+    "city": "New Orleans",
+    "country": "USA",
+    "affordability": "9",
+    "nightlife": "10",
+    "id": 4
+  }
 ]
 ```
 

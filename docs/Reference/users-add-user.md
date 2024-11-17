@@ -29,7 +29,8 @@ None
 ## Return body
 
 ```js
-[{
+[
+{
   "name": "Liza Dee",
   "location": "Porto",
   "city_visited": "Bangkok, Delhi, Boston",
