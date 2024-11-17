@@ -41,7 +41,9 @@ Sample `cities` resource
 | `nightlife` | number | The nightlife rating from 1-10 |
 | `id` | number | The city's unique record ID |
 
-<!-- ## READ
+## READ
 
-* [Get all cities](users-get-all-users.md)
-* [Get users by ID](users-get-user-by-id.md) -->
+* [Get all cities](cities-get-all-cities.md)
+* [Get cities by nightlife](cities-get-by-nightlife.md)
+* [Add a city](cities-add-city.md)
+* [List of references](../referencetopics.md)

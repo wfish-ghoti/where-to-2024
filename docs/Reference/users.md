@@ -22,22 +22,26 @@ Sample `users` resource
 ```js
 
 {
-      "name": "Kathy Barnes"
-      "city_visited": "Split", "Seattle", "New York",
-      "city_to_visit": "Tokyo", "Sydney", "Barcelona"
-      "id": 1
+    "name": "Kathy Barnes",
+    "location": "Los Angeles",
+    "city_visited": "Split, Seattle, New York",
+    "city_to_visit": "Tokyo, Sydney, Barcelona",
+    "id": 1
 }
 ```
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `name` | string | user name |
+| `location` | string | user location |
 | `city_visited` | string | cities visited by the user. The city must be in the cities resource. |
 | `city_to_visit` | string | cities the user would like to visit|
 | `id` | number | The user's unique record ID |
 
-<!-- ## READ
+## READ
 
-* [Get all tasks _(coming soon)_](#resource-properties)
-* [Get task by ID _(coming soon)_](#resource-properties)
-* [Get task by user ID _(coming soon)_](#resource-properties) -->
+* [Get all users](users-get-all-users.md)
+* [Add user](users-add-user.md)
+* [Update user city information](users-update-city_visited-city_to_visit-by-user_name.md)
+* [Delete a user](users-delete-user.md)
+* [List of references](../referencetopics.md)
