@@ -1,3 +1,3 @@
-# Updates Coming Soon!
+# Updates Coming Soon
 
-Placeholder for Where-To Updatesx
+Placeholder for Where-To Updates
