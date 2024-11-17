@@ -10,7 +10,7 @@ Returns an array of [`cities`](cities.md) objects that contain a specified `nigh
 
 ```shell
 
-{base_url}/cities?nightlife=
+{base_url}/cities?nightlife=10
 ```
 
 ## Params
