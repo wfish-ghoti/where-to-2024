@@ -13,7 +13,7 @@ Base endpoint:
 
 Contains information about the users of the service.
 
-A city must be in the cities resource to be available to the `city_visited` property. Learn more about the [cities resource](cities.md).
+A city must be in the cities resource to be available to the `city_visited` and the `location` property. Learn more about the [cities resource](cities.md).
 
 ## Resource properties
 
