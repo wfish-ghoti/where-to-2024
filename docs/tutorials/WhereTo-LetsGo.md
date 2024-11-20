@@ -92,12 +92,13 @@ To add a new city to the service, we use a `POST` command that's similar to what
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| Property name | Type | Description |
-| ------------- | ----------- | ----------- |
 | `city` | string | City name |
 | `country` | string | The country where the city is location |
-| `affordability` | number | The rating for affordability from 1-10|
-| `nightlife` | number | The nightlife rating from 1-10 |
+| `affordability` | number | How affordable is this city? Rated from 1-10|
+| `nightlife` | number | How vibrant is the nightlife of the city? Rated from 1-10 |
+| `cuisine` | number | The food scene: restaurants, street food, farmer's markets. Rated from 1-10 |
+| `safety` | number | How safe is the city? Rated from 1-10 |
+| `id` | number | The city's unique record ID |
 
 1. We'll use the `POST` command in our command-line tool to add the city of **Porto** to the service.
 
@@ -123,7 +124,7 @@ To add a new city to the service, we use a `POST` command that's similar to what
 
 ## Recap
 
-**Congratulations!!** You've successfully created a new user and added some cities that weren't in the service. You also queried the To-Do service to learn if a city was or was not in the service. To learn more about what else is possible, we invite you to take a look at some of our other tutorials.
+**Congratulations!!** You've successfully created a new user and added some cities that weren't in the service. You also queried **Where To** to learn if a city was or was not in the service. To learn more about what else is possible, we invite you to take a look at some of our other tutorials.
 
 ## Learn more
 
