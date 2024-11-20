@@ -10,8 +10,8 @@ Returns a city entered into the service.
 
 ```shell
 curl -X POST http://localhost:3000/cities \
-> -H "Content-Type: application/json" \
-> -d '{"city": "Dehli", "country": "India", "affordability": "9", "nightlife": "3"}'
+ -H "Content-Type: application/json" \
+ -d '{"city": "Dehli", "country": "India", "affordability": "9", "nightlife": "3", "cuisine": "5", "safety": "2"}'
 ```
 
 ## Params
@@ -30,13 +30,15 @@ None
 
 ```js
 [
-{
-  "city": "Delhi",
-  "country": "India",
-  "affordability": "9",
-  "nightlife": "3",
-  "id": 6
-}
+  {
+    "city": "Dehli",
+    "country": "India",
+    "affordability": "9",
+    "nightlife": "3",
+    "cuisine": "5",
+    "safety": "2",
+    "id": 17
+  }
 ]
 ```
 

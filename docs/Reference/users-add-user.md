@@ -10,8 +10,8 @@ Returns a user registered into the service.
 
 ```shell
 curl -X POST http://localhost:3000/users \
-> -H "Content-Type: application/json" \
-> -d '{"name": "Liza Dee", "location": "Porto", "city_visited": "Bangkok, Delhi, Boston", "city_to_visit": "Quito, Sydney, Tokyo"}'
+-H "Content-Type: application/json" \
+-d '{"name": "Liza Dee", "location": "Porto", "city_visited": "Bangkok, Delhi, Boston", "city_to_visit": "Quito, Sydney, Tokyo"}'
 ```
 
 ## Params

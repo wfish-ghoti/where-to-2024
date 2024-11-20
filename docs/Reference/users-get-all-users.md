@@ -57,8 +57,7 @@ None
     "city_to_visit": "Bogota, Prague, DC",
     "id": 4
   }
-]
-```
+]```
 
 ## Return status
 

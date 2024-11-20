@@ -143,6 +143,15 @@
       "cuisine": 10,
       "safety": 7,
       "id": 16
+    },
+    {
+      "city": "Dehli",
+      "country": "India",
+      "affordability": "9",
+      "nightlife": "3",
+      "cuisine": "5",
+      "safety": "2",
+      "id": 17
     }
   ],
   "users": [
@@ -173,6 +182,13 @@
       "city_visited": "Denver, Miami, Mexico City",
       "city_to_visit": "Bogota, Prague, DC",
       "id": 4
+    },
+    {
+      "name": "Liza Dee",
+      "location": "Porto",
+      "city_visited": "Bangkok, Delhi, Boston",
+      "city_to_visit": "Quito, Sydney, Tokyo",
+      "id": 5
     }
   ]
 }

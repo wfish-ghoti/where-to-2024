@@ -38,8 +38,10 @@ None
   {
     "city": "Split",
     "country": "Croatia",
-    "affordability": "10",
-    "nightlife": "8",
+    "affordability": 10,
+    "nightlife": 8,
+    "cuisine": 9,
+    "safety": 8,
     "id": 1
   }
 ]

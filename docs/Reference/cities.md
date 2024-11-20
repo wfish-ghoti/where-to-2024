@@ -21,21 +21,25 @@ Sample `cities` resource
 
 ```js
 
-{
+  {
     "city": "Split",
     "country": "Croatia",
-    "affordability": "10",
-    "nightlife": "8",
+    "affordability": 10,
+    "nightlife": 8,
+    "cuisine": 9,
+    "safety": 8,
     "id": 1
-}
+  },
 ```
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `city` | string | City name |
 | `country` | string | The country where the city is location |
-| `affordability` | number | The rating for affordability from 1-10|
-| `nightlife` | number | The nightlife rating from 1-10 |
+| `affordability` | number | How affordable is this city? Rated from 1-10|
+| `nightlife` | number | How vibrant is the nightlife of the city? Rated from 1-10 |
+| `cuisine` | number | The food scene: restaurants, street food, farmer's markets. Rated from 1-10 |
+| `safety` | number | How safe is the city? Rated from 1-10 |
 | `id` | number | The city's unique record ID |
 
 ## READ
