@@ -21,7 +21,7 @@ This quick start should take **15 minutes** to complete.
 
 ## Before you begin
 
-To sucessfully complete this quick start you will need to set up a test environment. Be sure to complete the [Before you start a tutorial](WhereTo-GetReady.md) before you start this quick start.
+To sucessfully complete this quick start you will need to set up a test environment. Be sure to complete our [GET READY! tutorial](WhereTo-GetReady.md) before you start this quick start.
 
 ## Users and Cities
 
