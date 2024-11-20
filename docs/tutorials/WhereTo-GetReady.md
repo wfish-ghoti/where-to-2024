@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Before you start a tutorial
+# Before you start a tutorial: GET READY!
 
 These are the steps you must do before you can run
 the tutorials for the **Where To service**.
