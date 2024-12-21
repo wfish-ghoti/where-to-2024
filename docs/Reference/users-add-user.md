@@ -4,29 +4,35 @@ layout: page
 
 # Add a user
 
-Returns a user registered into the service.
+Enters a user into the service.
 
 ## URL
 
 ```shell
 curl -X POST http://localhost:3000/users \
-> -H "Content-Type: application/json" \
-> -d '{"name": "Liza Dee", "location": "Porto", "city_visited": "Bangkok, Delhi, Boston", "city_to_visit": "Quito, Sydney, Tokyo"}'
 ```
 
 ## Params
 
-None
+Include  `user` resource properties as listed in the [users resource](users.md)
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `name` | string | user name |
+| `location` | string | user location |
+| `city_visited` | string | cities visited by the user. The city must be in the cities resource. |
+| `city_to_visit` | string | cities the user would like to visit|
+| `id` | number | The user's unique record ID |
 
 ## Request headers
 
-None
+-H "Content-Type: application/json" \
 
-## Request body
+## Sample request body
 
-None
+-d '{"name": "Liza Dee", "location": "Porto", "city_visited": "Bangkok, Delhi, Boston", "city_to_visit": "Quito, Sydney, Tokyo"}'
 
-## Return body
+## Sample return body
 
 ```js
 [
