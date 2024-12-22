@@ -2,25 +2,23 @@
 layout: page
 ---
 
-# Add a user
+# Update user details
 
-Adds a user object into the service.
+Returns updated [`user`](user.md) objects from a specified `user_name` parameter.
 
 ## Request
 
 ```shell
-curl -X POST http://localhost:3000/users
+curl -X PATCH http://localhost:3000/users/{id}
 ```
 
-## Request header
+## Request headers
 
-```shell
 -H "Content-Type: application/json"
-```
 
 ## Request body
 
-Include  `user` resource properties as listed in the [users resource](users.md)
+Change the property values, as needed
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
@@ -31,23 +29,25 @@ Include  `user` resource properties as listed in the [users resource](users.md)
 
 ## Sample request
 
+The following sample updates the `city_visited` and `city_to_visit` properties `user id` 5.
+
 ```shell
-curl -X POST http://localhost:3000/users \
+curl -X PATCH http://localhost:3000/users/5 \
 > -H "Content-Type: application/json" \
-> -d '{"name": "Liza Dee", "location": "Porto", "city_visited": "Bangkok, Delhi, Boston", "city_to_visit": "Quito, Sydney, Tokyo"}'
+> -d '{"city_visited": "Bangkok, Delhi, Boston, Tokyo", "city_to_visit": "Quito, Sydney, Lima"}'
 ```
 
 ## Sample return
 
 ```js
 [
-{
+  {
   "name": "Liza Dee",
   "location": "Porto",
-  "city_visited": "Bangkok, Delhi, Boston",
-  "city_to_visit": "Quito, Sydney, Tokyo",
+  "city_visited": "Bangkok, Delhi, Boston, Tokyo",
+  "city_to_visit": "Quito, Sydney, Lima",
   "id": 5
-}
+  }
 ]
 ```
 
@@ -55,6 +55,6 @@ curl -X POST http://localhost:3000/users \
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
-| 201 | Created | Requested data created successfully |
+| 200 | Success | Requested data returned successfully |
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
