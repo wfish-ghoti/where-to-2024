@@ -6,11 +6,11 @@ layout: page
 
 Returns an array of [`cities`](cities.md) objects that contain a specified `nightlife` parameter.
 
-## URL
+## Request
 
 ```shell
 
-{base_url}/cities?nightlife=10
+curl {base_url}/cities?nightlife={number}
 ```
 
 ## Params
@@ -23,11 +23,11 @@ Returns an array of [`cities`](cities.md) objects that contain a specified `nigh
 
 None
 
-## Request body
+## Sample request
 
-None
+curl {base_url}/cities?nightlife=10
 
-## Return body
+## Sample return
 
 ```js
 [
@@ -53,6 +53,5 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
-| 201 | Created | Requested data created successfully |
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |

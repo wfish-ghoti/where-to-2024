@@ -17,7 +17,7 @@ This quick start should take **15 minutes** to complete.
 
 - [How to add a user.](#enroll-a-new-user)
 - [How to find a city in the service.](#find-a-city)
-- [How to add a city.](#add-tasks)
+- [How to add a city.](#add-a-city)
 
 ## Before you begin
 
@@ -71,7 +71,7 @@ To enroll a new user:
 
     - If the user's `location` is not in the `cities` resource, you will need to add it.
     - If the user includes a city in the `city_visited` parameter that is not in the `cities` resource, you will need to add it.
-    - Currently, you must search the resource to confirm if a city is or is not in the resource. 
+    - Currently, you must search the resource to confirm if a city is or is not in the resource.
 
 ### Find a city
 
@@ -83,7 +83,7 @@ Now we'll see if our new user's `location` value is already in the service.
     curl http://localhost:3000/cities?name=Porto
     ```
 
-2. If the curl command returns an empty curly braces `{}`, then you need to add the location to the city resource. 
+2. If the curl command returns an empty curly braces `{}`, then you need to add the location to the city resource.
 3. Use the same method to check if the cities listed in the `city_visited` parameter are present.
 
 ### Add a city

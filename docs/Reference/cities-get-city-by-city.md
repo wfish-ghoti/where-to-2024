@@ -4,20 +4,19 @@ layout: page
 
 # Get cities by `city`
 
-Returns a city [`cities`](cities.md) object that contain a specified `city` parameter.
+Returns a city [`cities`](cities.md) object that contains a specified `city` parameter.
 
-    - If the user's `location` is not in the `cities` resource, you will need to add it.
-    - If the user includes a city in the `city_visited` parameter that is not in the `cities` resource, you will need to add it.
+- If the user's `location` is not in the `cities` resource, you will need to add it.
+- If the user includes a city in the `city_visited` parameter that is not in the `cities` resource, you will need to add it.
 
-## URL
+## Request
 
 ```shell
 
-  {base_url}/cities?name=Split
-
+curl {base_url}/cities?name={string}
 ```
 
-## Params
+## Request body
 
 | Parameter name | Type | Description |
 | -------------- | ------ | ------------ |
@@ -27,11 +26,14 @@ Returns a city [`cities`](cities.md) object that contain a specified `city` para
 
 None
 
-## Request body
+## Sample request
 
-None
+```shell
 
-## Return body
+curl {base_url}/cities?name=Split
+```
+
+## Sample return
 
 ```js
 [
@@ -50,6 +52,5 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
-| 201 | Created | Requested data created successfully |
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |

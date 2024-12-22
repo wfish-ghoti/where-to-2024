@@ -4,18 +4,13 @@ layout: page
 
 # Get all cities
 
-Returns an array of [city](cities.md) objects that contains all cities that have entered into the service.
+Returns an array of [city](cities.md) objects from every city in the service.
 
-## URL
+## Request
 
 ```shell
-
-{base_url}/users
+{base_url}/cities
 ```
-
-## Params
-
-None
 
 ## Request headers
 
@@ -25,7 +20,7 @@ None
 
 None
 
-## Return body
+## Sample return
 
 ```js
 [
@@ -65,6 +60,5 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
-| 201 | Created | Requested data created successfully |
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
