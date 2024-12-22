@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# WHERE TO Service Quick Start: LET'S GO!<!-- omit in toc -->
+# WHERE TO Service Quick Start: LET'S GO<!-- omit in toc -->
 
 The **Where To Service API** is a cloud-based service you can use to find the perfect place to explore based on ratings like affordability and nightlife.  To start using this service, all you need is to user and city data!  
 This quick start should take **15 minutes** to complete.

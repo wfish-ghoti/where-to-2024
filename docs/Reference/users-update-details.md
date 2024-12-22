@@ -4,7 +4,7 @@ layout: page
 
 # Update user details
 
-Returns updated [`user`](user.md) objects from a specified `user_name` parameter.
+Returns updated [`user`](user.md) objects from a specified user id.
 
 ## Request
 
