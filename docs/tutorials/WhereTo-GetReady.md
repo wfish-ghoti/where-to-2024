@@ -86,6 +86,11 @@ Some common situations that cause errors include:
 If you see the list of users from the service, you're ready to do
 the [quick start](WhereTo-LetsGo.md).
 
+## Learn more
+
+* [Reference topics](../referencetopics.md#reference-topics)
+* [More tutorials](../referencetopics.md#tutorials)
+
 ## Useful links
 
 * [Check for updates](Updates.md).

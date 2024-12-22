@@ -38,15 +38,13 @@ Sample `users` resource
 | `city_to_visit` | string | cities the user would like to visit|
 | `id` | number | The user's unique record ID |
 
-## READ
+## Learn more
 
-* [Get all users](users-get-all-users.md)
-* [Add user](users-add-user.md)
-* [Update user city information](users-update-city_visited-city_to_visit-by-user_name.md)
-* [Delete a user](users-delete-user.md)
-* [List of references](../referencetopics.md)
+* [Reference topics](../referencetopics.md#reference-topics)
+* [Tutorials](../referencetopics.md#tutorials)
 
 ## Useful links
 
-* [Check for updates](Updates.md).
+* [Home](../index.md).
+* [Check for updates](../Updates.md).
 * [Contact us](mailto:where-to@example.com).

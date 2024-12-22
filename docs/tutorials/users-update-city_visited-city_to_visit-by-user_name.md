@@ -77,6 +77,8 @@ In this tutorial, we'll update his information to reflect this.
 ## Learn More
 
 * [Add a city](../Reference/cities-add-city.md)
+* [Reference topics](../referencetopics.md#reference-topics)
+* [More tutorials](../referencetopics.md#tutorials)
 
 ## Useful links
 

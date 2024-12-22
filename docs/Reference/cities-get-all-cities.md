@@ -63,7 +63,13 @@ None
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
+## Learn more
+
+* [Reference topics](../referencetopics.md#reference-topics)
+* [Tutorials](../referencetopics.md#tutorials)
+
 ## Useful links
 
-* [Check for updates](Updates.md).
+* [Home](../index.md).
+* [Check for updates](../Updates.md).
 * [Contact us](mailto:where-to@example.com).

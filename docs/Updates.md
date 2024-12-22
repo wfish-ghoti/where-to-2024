@@ -13,4 +13,6 @@ Check here for our most recent updates and what we're working on to improve.
 ## Useful links
 
 * [Home](index.md).
+* [Reference topics](referencetopics.md#reference-topics)
+* [Tutorials](referencetopics.md#tutorials)
 * [Contact us](mailto:where-to@example.com).

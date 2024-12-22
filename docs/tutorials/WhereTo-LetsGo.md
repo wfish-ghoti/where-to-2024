@@ -129,7 +129,9 @@ To add a new city to the service, we use a `POST` command that's similar to what
 
 ## Learn more
 
-- [Update the cities visited value](../Reference/users-update-city_visited-city_to_visit-by-user_name.md)
+* [Update the cities visited value](../Reference/users-update-city_visited-city_to_visit-by-user_name.md)
+* [Reference topics](../referencetopics.md#reference-topics)
+* [More tutorials](../referencetopics.md#tutorials)
 
 ## Useful links
 
