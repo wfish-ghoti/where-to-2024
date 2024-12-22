@@ -63,3 +63,8 @@ None
 | 200 | Success | Requested data returned successfully |
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+## Useful links
+
+* [Check for updates](Updates.md).
+* [Contact us](mailto:where-to@example.com).

@@ -44,3 +44,8 @@ Sample `cities` resource
 * [Get cities by nightlife](cities-get-by-nightlife.md)
 * [Add a city](cities-add-city.md)
 * [List of references](../referencetopics.md)
+
+## Useful links
+
+* [Check for updates](Updates.md).
+* [Contact us](mailto:where-to@example.com).

@@ -85,3 +85,8 @@ Some common situations that cause errors include:
 
 If you see the list of users from the service, you're ready to do
 the [quick start](WhereTo-LetsGo.md).
+
+## Useful links
+
+* [Check for updates](Updates.md).
+* [Contact us](mailto:where-to@example.com).

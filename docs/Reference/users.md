@@ -45,3 +45,8 @@ Sample `users` resource
 * [Update user city information](users-update-city_visited-city_to_visit-by-user_name.md)
 * [Delete a user](users-delete-user.md)
 * [List of references](../referencetopics.md)
+
+## Useful links
+
+* [Check for updates](Updates.md).
+* [Contact us](mailto:where-to@example.com).

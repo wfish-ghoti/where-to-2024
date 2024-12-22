@@ -74,6 +74,11 @@ In this tutorial, we'll update his information to reflect this.
 
 **Congratulations!!** You've successfully updated a user's details to reflect their travel history and future. Now it's time for Chris to add and rate Prague in the `cities` resource.
 
-## Learn more
+## Learn More
 
-- [Add a city](../Reference/cities-add-city.md)
+* [Add a city](../Reference/cities-add-city.md)
+
+## Useful links
+
+* [Check for updates](Updates.md).
+* [Contact us](mailto:where-to@example.com).
