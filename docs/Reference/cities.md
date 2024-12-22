@@ -38,9 +38,13 @@ Sample `cities` resource
 | `nightlife` | number | The nightlife rating from 1-10 |
 | `id` | number | The city's unique record ID |
 
-## READ
+## Learn more
 
-* [Get all cities](cities-get-all-cities.md)
-* [Get cities by nightlife](cities-get-by-nightlife.md)
-* [Add a city](cities-add-city.md)
-* [List of references](../referencetopics.md)
+* [Reference topics](../referencetopics.md#reference-topics)
+* [Tutorials](../referencetopics.md#tutorials)
+
+## Useful links
+
+* [Home](../index.md).
+* [Check for updates](../Updates.md).
+* [Contact us](mailto:where-to@example.com).

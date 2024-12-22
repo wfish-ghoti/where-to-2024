@@ -4,7 +4,7 @@ layout: page
 
 # Update user details
 
-Returns updated [`user`](user.md) objects from a specified `user_name` parameter.
+Returns updated [`user`](user.md) objects from a specified user id.
 
 ## Request
 
@@ -58,3 +58,14 @@ curl -X PATCH http://localhost:3000/users/5 \
 | 200 | Success | Requested data returned successfully |
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+## Learn more
+
+* [Reference topics](../referencetopics.md#reference-topics)
+* [Tutorials](../referencetopics.md#tutorials)
+
+## Useful links
+
+* [Home](../index.md).
+* [Check for updates](../Updates.md).
+* [Contact us](mailto:where-to@example.com).

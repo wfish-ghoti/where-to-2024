@@ -2,9 +2,10 @@
 layout: page
 ---
 
-# WHERE TO Service Quick Start: LET'S GO!<!-- omit in toc -->
+# WHERE TO Service Quick Start: LET'S GO<!-- omit in toc -->
 
 The **Where To Service API** is a cloud-based service you can use to find the perfect place to explore based on ratings like affordability and nightlife.  To start using this service, all you need is to user and city data!  
+
 This quick start should take **15 minutes** to complete.
 
 - [What you will learn](#what-you-will-learn)
@@ -12,6 +13,7 @@ This quick start should take **15 minutes** to complete.
 - [Users and Cities](#users-and-cities)
 - [Recap](#recap)
 - [Learn more](#learn-more)
+- [Useful links](#useful-links)
 
 ## What you will learn
 
@@ -127,5 +129,11 @@ To add a new city to the service, we use a `POST` command that's similar to what
 
 ## Learn more
 
-- [Find a city by its nightlife rating](../Reference/cities-get-by-nightlife.md)
-- [Update the cities visited value](../Reference/users-update-city_visited-city_to_visit-by-user_name.md)
+* [Update the cities visited value](../Reference/users-update-city_visited-city_to_visit-by-user_name.md)
+* [Reference topics](../referencetopics.md#reference-topics)
+* [More tutorials](../referencetopics.md#tutorials)
+
+## Useful links
+
+* [Check for updates](Updates.md).
+* [Contact us](mailto:where-to@example.com).

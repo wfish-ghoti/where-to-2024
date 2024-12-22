@@ -6,8 +6,8 @@ layout: page
 
 Returns a city [`cities`](cities.md) object that contains a specified `city` parameter.
 
-- If the user's `location` is not in the `cities` resource, you will need to add it.
-- If the user includes a city in the `city_visited` parameter that is not in the `cities` resource, you will need to add it.
+* If the user's `location` is not in the `cities` resource, you will need to add it.
+* If the user includes a city in the `city_visited` parameter that is not in the `cities` resource, you will need to add it.
 
 ## Request
 
@@ -54,3 +54,14 @@ curl {base_url}/cities?name=Split
 | 200 | Success | Requested data returned successfully |
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+## Learn more
+
+* [Reference topics](../referencetopics.md#reference-topics)
+* [Tutorials](../referencetopics.md#tutorials)
+
+## Useful links
+
+* [Home](../index.md).
+* [Check for updates](../Updates.md).
+* [Contact us](mailto:where-to@example.com).

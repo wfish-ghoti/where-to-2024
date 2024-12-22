@@ -170,8 +170,8 @@
     {
       "name": "Chris O'Brien",
       "location": "Buffalo",
-      "city_visited": "Denver, Miami, Mexico City",
-      "city_to_visit": "Bogota, Prague, DC",
+      "city_visited": "Denver, Miami, Mexico City, Prague",
+      "city_to_visit": "Bogota, DC, Tokyo",
       "id": 4
     }
   ]

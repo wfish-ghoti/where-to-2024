@@ -58,3 +58,14 @@ curl -X POST http://localhost:3000/users \
 | 201 | Created | Requested data created successfully |
 | 404 | Error | Specified user record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+## Learn more
+
+* [Reference topics](../referencetopics.md#reference-topics)
+* [Tutorials](../referencetopics.md#tutorials)
+
+## Useful links
+
+* [Home](../index.md).
+* [Check for updates](../Updates.md).
+* [Contact us](mailto:where-to@example.com).
